@@ -6,8 +6,9 @@ default_versions:
 dependencies:
 - name: nginx
   version: 1.17.6
-  uri: https://buildpacks.cloudfoundry.org/dependencies/nginx-static/nginx-1.17.6-linux-x64-cflinuxfs3-586be3da.tgz
-  sha256: 586be3dac18a29b276104c60d4d6c4f548d18619ff3ebef18061f7dd0a2e05e0
+  uri: /fixtures/overrideyml_bp/nginx.tgz
+  #uri: https://buildpacks.cloudfoundry.org/dependencies/nginx-static/nginx-1.17.6-linux-x64-cflinuxfs3-586be3da.tgz
+  #sha256: 586be3dac18a29b276104c60d4d6c4f548d18619ff3ebef18061f7dd0a2e05e0
   cf_stacks:
   - cflinuxfs3
   source: http://nginx.org/download/nginx-1.17.6.tar.gz
